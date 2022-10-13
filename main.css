@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 body {
   padding: 0;
   margin: 0;
@@ -40,15 +41,78 @@ body {
   line-height: 24px;
   font-weight: 500px;
 }
-.button {
+.button{
   padding-top: 32.5px;
   padding-right: 49.5px;
 }
-.hero {
-  position: relative;
+.home-button{
+  background: var(--black);
+  color: var(--white);
+  border-radius: 3px;
+  width: 135px;
+  height: 45px;
+  text-align: center;
+  padding: 8.5px 25.5px;
+  line-height: 45px;
 }
 .hero>img{
   position: absolute;
   top: 270px;
   left: 207px;
+}
+.text{
+  padding-left: 152px;
+  padding-top: 171px;
+  padding-right: 944px;
+}
+.text >h1{
+  color: var(--gray);
+  margin-bottom: 26px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 800;
+}
+.text >p{
+  color: #52525B;
+  line-height: 28px;
+  margin-bottom: 45px;
+  font-family: inter;
+  font-weight: 400;
+}
+.text-button{
+  font-family:  Plus Jakarta Sans;
+  font-weight: 700;
+  width: 214px;
+  line height: 28px;
+  padding: 16pX 30px;
+  background: var(--gray);
+  color: var(--white);
+  text-align: center;
+  align-items: center; 
+  margin-bottom: 70px;
+  border-radius: 3px;
+}
+.editor >h1{
+ color: var(--gray);
+ font-family: Plus Jakarta Sans;
+ font-weight: 700;
+}
+.editor >p{
+  color: #3F3F46;
+  margin-bottom: 12px;
+  font-family: inter;
+  font-weight: 400;
+}
+.img-vector{
+  display: flex;
+}
+.icon{
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  color: var(--gray);
+  display: flex;
+  background: transparent;
+  border: none;
+  justify-content: start;
+  align-items: center;
+  gap: 9px;
 }
