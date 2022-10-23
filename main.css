@@ -52,7 +52,6 @@ body {
   width: 135px;
   height: 45px;
   text-align: center;
-  padding: 8.5px 25.5px;
   line-height: 45px;
 }
 .hero>img{
@@ -91,7 +90,7 @@ body {
   margin-bottom: 70px;
   border-radius: 3px;
 }
-.editor >h1{
+.editor >h4{
  color: var(--gray);
  font-family: Plus Jakarta Sans;
  font-weight: 700;
@@ -104,6 +103,7 @@ body {
 }
 .img-vector{
   display: flex;
+  gap: 6px;
 }
 .icon{
   font-family: Plus Jakarta Sans;
@@ -115,4 +115,14 @@ body {
   justify-content: start;
   align-items: center;
   gap: 9px;
+}
+.image-illustrate{
+  position: absolute;
+  right: 232px;
+  top: 202px;
+}
+.image-dash{
+  position: absolute;
+  right: 778px;
+  top: 339px;
 }
