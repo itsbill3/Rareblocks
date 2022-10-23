@@ -4,7 +4,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background: ;
+  overflow-x: hidden;
 }
 :root {
   --black: #000000;
@@ -81,7 +81,7 @@ body {
   font-family:  Plus Jakarta Sans;
   font-weight: 700;
   width: 214px;
-  line height: 28px;
+  line-height: 28px;
   padding: 16pX 30px;
   background: var(--gray);
   color: var(--white);
